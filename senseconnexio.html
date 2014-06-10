@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Clinicas Guang An Men</title>
+        <link rel="stylesheet" href="css/estils.css" />  <!-- Estils propis -->
+        <script type="text/javascript" charset="utf-8" src="phonegap.js"></script> <!-- Llibreria PhoneGap -->
+        <script type="text/javascript" charset="utf-8" src="js/push.js"></script> <!-- Funcions PushWoosh -->
+        <script src="js/jquery.min.js"></script>
+	</head>
+    
+	<body style="margin:0px;padding:0px;">
+        <div id="NoConnectSplash"><p>&nbsp;</p></div>
+        <script type="text/javascript">
+			$(document).ready(function(){
+				$("#NoConnectSplash").css("height",$(window).height());
+				app.initialize();
+			});
+        </script>
+	</body>
+</html>
