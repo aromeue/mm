@@ -64,6 +64,8 @@
 	<gap:plugin name="org.apache.cordova.device"  />
 	<gap:plugin name="org.apache.cordova.network-information" />
 	<gap:plugin name="com.conzentrate.cordova.plugin.deviceaudioservice" />
+	<gap:plugin name="com.rjfun.cordova.plugin.lowlatencyaudio" />
+
 
 	
 <!--
